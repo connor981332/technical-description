@@ -31,7 +31,26 @@ ul {
 
 .mainContent {
   width: 800px;
-  text-align: center;
+  text-align: left;
   margin-left: auto;
   margin-right: auto;
+  font-size: 20px;
+}
+
+.video {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 20px;
+}
+
+.twoPics {
+  width: 800px;
+}
+
+.imgCaption p {
+  float: left;
 }
