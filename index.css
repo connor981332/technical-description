@@ -54,3 +54,11 @@ p {
 .imgCaption p {
   float: left;
 }
+
+h1, h2{
+    font-weight: bolder;
+}
+
+#listTim{
+    list-style-type: circle;
+}
