@@ -4,6 +4,8 @@
   <title>What is an SSD?</title>
   <link rel="stylesheet" type="text/css" href="index.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -18,7 +20,7 @@
     <h1>What is an SSD?</h1>
     <p>
       An SSD, or <em>solid state drive</em> is a storage medium used in computer
-      hardware. What sets apart an SSD from other storage mediums, is it's complete
+      hardware. What sets apart an SSD from other storage mediums, is its complete
       lack of moving parts, hence the phrase <em>"solid state".</em>
     </p>
   </div>
@@ -32,11 +34,10 @@
   <br>
 
   <div align="center" class="mainContent">
-
     <p>
       The purpose of an SSD (or any other storage medium) is to serve as a place
       where your computer can store the information it needs to function. The performance
-      and reliability of a computer's storage plays a big role in the entire computer'
+      and reliability of a computer's storage plays a big role in the entire computer's
       performance and reliability.
     </p>
   </div>
@@ -44,43 +45,72 @@
   <div align='center' class='video'>
     <iframe width="800" height="450" src="https://www.youtube.com/embed/YQEjGKYXjw8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
-
-  <div align='center' class='mainContent'>
-    <h1>Why would I want an SSD?</h1>
-      <p class="heading">An SSD is the next generation of computer data storage, with significant advances to its predecessor: the Hard Disk Drive.</p>
-        <h2>No Moving Parts</h2>
-          <p class="content">The old storage medium, a hard disk drive, would write data magnetically to spinning platters using mechanical arms called heads.  By removing these heads and platters, and switching to integrated circuit boards, there is a significant increase to speed and data integrity.</p>
-          <p class="content">Hard disk drives were susceptible to mechanical failures, where parts would break, and often would scratch the platters. Scratches would corrupt tha data, and would sometimes be hard to detect.  With no moving parts, there are no mechanical failures.</p>
-          <p class="content">In addition, hard disk drives could only store data as fast as the platters could spin and the heads could move.  Removing these parts allows the data to be stored as fast as the data is transmitted.  There are some limitations, but the speed increase is on average 15 times faster.</p>
-        <h2>Compactness</h2>
-          <p class="content">HDD sizes could come in 2.5" as a small form factor edition, or 3.5" as the standard.  SSDs come in sizes of 1.8", 2.5" or 3.5" standard, and m.2 form factors typically range from 22mm wide by 80mm long.  That's about the size of a flash drive!</p>
-          <p class="content">While the dimensions might not be important, the significance shows in the weight difference.  Comparing standard sizes, a HDD weighs about 1.5 pounds, while an SSD weighs .20 lbs, and a form factor m.2 SSD only weight .01 lbs.  This makes SSDs far more optimal for laptops and notebooks.</p>
-        <h2>Performance</h2>
-          <p class="content">An SSD consumes about 15% the energy that an HDD does, allowing for far longer battery life in notebooks and laptops.</p>
-          <p class="content">Startup and shut down times also drastically differ between HDDs and SSDs.  An SSD can bootup and shutdown in 12 seconds on average, compared to 35 seconds for an HDD.</p>
-          <p class="content">SSDs make no noise and cause no vibrations, generate less heat, and is safe from the affects of magnetism.  Ever heard the advice to not bring a magnet near your computer?  There's no worry with an SSD.  Your computer could sit in a bucket of magnets and be perfectly fine.</p>
-  
+<div class="mainContent">
+  <div class='container'>
+    <div class="">
+      <div class="">
+        <div class="panel panel-default">
+          <div class="panel-heading" id="head">
+            <h4>Why would I want an SSD?</h4>
+            <span class="pull-right">
+              <ul class="nav panel-tabs">
+                <li class="active"><a href="#tab1" data-toggle="tab">No Moving Parts</a></li>
+                <li><a href="#tab2" data-toggle="tab">Compactness</a></li>
+                <li><a href="#tab3" data-toggle="tab">Performance</a></li>
+              </ul>
+            </span>
+          </div>
+          <div class="panel-body">
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab1">
+                <br />
+                <div class="panel col-md-6">
+                    <p>The old storage medium, a hard disk drive, would write data magnetically to spinning platters using mechanical arms called heads.  By removing heads and platters, and switching to integrated circuit boards, there are significant increases to speed and data integrity.</p><br />
+                    <p>Hard disk drives are susceptible to mechanical failures, where parts break, and often scratch the platters. Scratches cause data corruption, and are sometimes hard to detect.  Without moving parts, there are no mechanical failures.</p><br />
+                    <p>In addition, hard disk drives could only store data as fast as the platters could spin and the heads could move.  Removing these parts allows the data to be stored as fast as the data is transmitted.  There are some limitations, but the speed increase is on average 15 times faster.</p>
+                </div>
+                <div class="panel col-md-6">
+                  <img height="500px" width="700px" src="./images/diagram.jpeg">
+                </div>
+              </div>
+              <div class="tab-pane" id="tab2">
+                <br />
+                <div class="panel col-md-6">
+                    <p>HDD sizes come in 2.5" form factor edition, or 3.5" as the standard.  SSDs come in sizes of 1.8", 2.5" or 3.5" standard, and m.2 form factors typically range from 22mm wide by 80mm long.  That's about the size of a flash drive!</p>
+                    <p>While the dimensions might not be important, the significance shows in their weight differences.  Comparing standard sizes, an HDD weighs about 1.5 pounds, while an SSD weighs 0.20 lbs, and a form factor m.2 SSD only weight .01 lbs.  This makes SSDs far more optimal for laptops and notebooks.</p>
+                </div>
+                <div class="panel col-md-6">
+                  <img src="./images/drive-variations.jpg">
+                </div>
+              </div>
+              <div class="tab-pane" id="tab3">
+                  <br />
+                  <div class="panel col-md-6">
+                      <p>SSDs consume about 15% the energy that an HDD does, allowing for far longer battery life in notebooks and laptops.</p><br />
+                      <p>Startup and shut down times also drastically differ between HDDs and SSDs.  An SSD can bootup and shutdown in 12 seconds on average, compared to 35 seconds for an HDD.</p><br />
+                      <p>SSDs make no noise and cause no vibrations, generate less heat, and is safe from the effects of magnetism and shock.  Ever heard the advice to not bring a magnet near your computer?  There's no worry with an SSD.  Your computer could sit in a bucket of magnets and be perfectly fine.</p>
+                  </div>
+                  <div class="panel col-md-6">
+                    <img height="600px" width="525px" src="images/Comparision-between-HDD-Vs.-SSD-.jpg">
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
       <h1>Final Verdict</h1>
       <p>
-          Ultimately, the decision to buy an SSD is based on your preference and actual needs.  Today the price of long term storage has decreased significantly.  No longer does it cost an arm or a leg to have 500GB or even 1000GB of data.  The price of an SSD is more affordable than ever since its introduction to the commercial market.  An SSD is becoming a much more attractive item in the realm of computer parts.  Generally, having a computer with an SSD will exceed your expectations of computer speed.  Here are a few factors that you should consider before making your final decision.
-
-
-
+          Ultimately, the decision to buy an SSD is based on your preference and actual needs.  Today the price of long term storage has decreased significantly.  It no longer costs an arm or a leg to have 500GB or even 1000GB of data.  The price of an SSD is more affordable than ever since its introduction to the commercial market.  An SSD is becoming a much more attractive item in the realm of computer parts.  Generally, having a computer with an SSD will exceed your expectations of computer speed.  Here are a few factors that you should consider before making your final decision.
       </p>
         <ul id="listTim">
           <li>How much do you want to spend?</li><br />
-            <p>In earlier days the price of an SSD was typically not worth the performance boost.  However, today you have the luxury of low SSD prices.  If you desire to purchase an SSD but you are short on funds, there are lower cost options.  Currently 
-            there are SSDs that cost only $25.  They don't offer much in actually capacity (typically around 120GB), but even an 120GB SSD would be worth the investment.
-            There is also much more on the market if you need high performance and larger memory capacity, then there are models in the ranges from $50-$200.</p>
+            <p>At its introduction, the price of an SSD was typically not worth the performance boost.  However, today you have the luxury of low SSD prices.  If you desire to purchase an SSD, but you are short on funds, there are lower cost options.  Currently there are SSDs that cost only $25.  They don't offer much in actual capacity, but even an 120GB SSD would be worth the investment. There are many more on the market if you need high performance and larger memory capacity, with models in the ranges of $50-$200.</p>
 
           <li>What is your intended use?</li><br />
-            <p>Maybe you are a movie collector. Only, you are a movie collector who likes digital copies of films.  Maybe you are an avid gamer who needs performance but at a good cost.  Or maybe you just want to look at photos of your grandkids.
-            Whatever actual desire you may have to use a computer, there is a great benefit of having an SSD.  The fact is that with variable memory sizes, increased performances, and greater portabilty an SSD would make a great addition to your computer. </p>
-           
-
-            
-          
-          
+            <p>Maybe you are a movie collector. Only, you are a movie collector who likes digital copies of films.  Maybe you are an avid gamer who needs performance, but at a good cost. Or maybe you just want to look at photos of your grandkids.  Whatever actual desire you may have to use a computer, there is a great benefit of having an SSD.  The fact is that with variable memory sizes, increased performance, and greater portabilty an SSD would make a great addition to your computer.</p>
         </ul>
   </div>
 
