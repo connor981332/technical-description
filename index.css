@@ -27,18 +27,25 @@
     background-color: #4CAF50;
     color: white;
 }*/
-
-.body {
-    padding-bottom: 100px;
+body {
+    margin: 0;
 }
 
 #bannerimage {
+    top: 0;
+    left: 0;
+    margin: 0;
     width: 100%;
     height: 70px;
     background-color: #126480;
 }
 
 .bannerhead {
+    position: relative;
+    width: 100%;
+    top: 20%;
+    margin: 0;
+    padding: 2px;
     color: white;
     font-family: Arial;
     text-align: center;
@@ -57,12 +64,6 @@ ul {
   padding-right: 25px;
 }
 
-.video {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 p {
   font-size: 20px;
 }
@@ -75,31 +76,72 @@ p {
   float: left;
 }
 
-h1, h2, h3, h4 {
+.sectionHeader {
+    width: 100%;
+    text-align: left;
+    border-color: transparent;
+    border-bottom-color: #333;
+    border-style: solid;
+    border-width: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 28px;
     font-weight: bolder;
 }
 
-#listTim {
-    list-style-type: circle;
-}
-
-#Conclusion {
-    padding-bottom: 50px;
-}
-
-li {
+h1, h2, h3, h4, li {
     font-weight: bolder;
 }
 
-.container {
-  margin-left: 0;
-  margin-right: 0;
+.box {
+    float: left;
+    padding: 25px;
+    width: 50%;
+    overflow: hidden;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.characteristics {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#head {
+    padding: 0;
+}
+
+#header {
+    padding: 5px;
+    float: left;
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+    width: 25%;
+}
+
+.panel-height {
+    height: 750px;
+    margin-bottom: 0;
+}
+
+.pimages {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
 }
 
 /*Panel tabs*/
 .panel-tabs {
   position: relative;
-  bottom: 30px;
   border-bottom: 1px solid transparent;
 }
 
@@ -139,7 +181,7 @@ li {
     width: 100%;
     left: 0;
     bottom: 0;
-    height: 25px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -147,7 +189,14 @@ li {
 }
 
 .name {
+    margin: auto;
+    width: 50%;
     color: white;
     font-family: Arial;
+    font-weight: bolder;
     text-align: center;
+}
+
+#spacing {
+    margin: 550px;
 }

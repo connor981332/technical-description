@@ -8,20 +8,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
 
+<body>
     <!--<div class="topnav">
       <a class="highlighted" href="">What is an SSD?</a>
       <a href="">Attributes</a>
       <a href="">Analysis</a>
       <a href="">About</a>
     </div>-->
+
     <div id="bannerimage">
-        <h1 class="bannerhead">SOLID STATE DRIVE</h1>
+        <h1 class="bannerhead">SOLID STATE DRIVES</h1>
     </div>
 
     <div align="center" class="mainContent">
-        <h1>  What is an SSD?</h1>
+        <div class="sectionHeader">What is an SSD?</div>
         <p>
             An SSD, or <em>solid state drive</em> is a storage medium used in many modern computers. What sets apart an SSD from other types of storage is its complete
             lack of moving parts, hence the name "<em>solid state</em>" drive.
@@ -53,13 +54,13 @@
     </div>
 
     <div class="mainContent">
-      <h1>Characteristics</h1>
-        <div class='container'>
+      <div class="sectionHeader">Characteristics</div>
+        <div class='characteristics'>
             <div class="">
                 <div class="">
                     <div class="panel panel-default">
                         <div class="panel-heading" id="head">
-                            <h4>Why would I want an SSD?</h4>
+                            <p id="header">Why would I want an SSD?</p>
                             <span class="pull-right">
                                 <ul class="nav panel-tabs">
                                     <li class="active"><a href="#tab1" data-toggle="tab">No Moving Parts</a></li>
@@ -69,11 +70,11 @@
                                 </ul>
                             </span>
                         </div>
-                        <div class="panel-body">
+                        <div class="panel-body panel-height">
                             <div class="tab-content">
                                 <div class="tab-pane active" id="tab1">
                                     <br>
-                                    <div class="panel col-md-6">
+                                    <div class="panel box">
                                         <p>
                                           Traditional hard disk drives, or HDDs, write data to spinning platters using mechanical arms called "heads". In order to retrieve a file stored on a hard disk drive,
                                           the head must first physically move to the portion of the platter where that data is stored. Although this motion may appear instantaneous
@@ -90,13 +91,13 @@
                                           in transporting a laptop computer. SSDs are more resistant to impacts and random mechanical failures than their mechanical counterparts.
                                         </p>
                                     </div>
-                                    <div class="panel col-md-6">
-                                        <img height="500px" width="700px" src="./images/diagram.jpeg">
+                                    <div class="panel box">
+                                        <img class="pimages" src="./images/diagram.jpeg">
                                     </div>
                                 </div>
                                 <div class="tab-pane" id="tab2">
                                     <br>
-                                    <div class="panel col-md-6">
+                                    <div class="panel box">
                                         <p>
                                           Hard disk drives are often physically larger than SSDs. Pictured to the right are several SSDs scattered about a typical hard disk drive. The smaller form factor of SSDs means that computers that contain them, are typically much more compact.
                                         </p>
@@ -105,13 +106,13 @@
                                           Further solidifying the SSD as the most portable internal storage medium is its weight. A typical hard disk drive (as pictured to the right) weighs about 1.5 pounds, while an SSD can weigh as little as .01 lbs.
                                         </p>
                                     </div>
-                                    <div class="panel col-md-6">
-                                        <img src="./images/drive-variations.jpg">
+                                    <div class="panel box"> 
+                                        <img class="pimages" src="./images/drive-variations.jpg">
                                     </div>
                                 </div>
                                 <div class="tab-pane" id="tab3">
                                     <br>
-                                    <div class="panel col-md-6">
+                                    <div class="panel box">
                                         <p>
                                           The performance difference between an SSD and a hard disk drive varies depending on the type of workload. However, during typical, everyday computing SSDs outperform HDDs by a wide margin.
                                         </p>
@@ -125,13 +126,13 @@
                                           This means that everything from browsing the web, to opening an application, happens significantly faster on a solid state drive.
                                         </p>
                                     </div>
-                                    <div class="panel col-md-6">
-                                        <img height="600px" width="525px" src="images/Comparision-between-HDD-Vs.-SSD-.jpg">
+                                    <div class="panel box">
+                                        <img class="pimages" src="images/Comparision-between-HDD-Vs.-SSD-.jpg">
                                     </div>
                                 </div>
                                 <div class="tab-pane" id="tab4">
                                     <br>
-                                    <div class="panel col-md-6">
+                                    <div class="panel box">
                                         <p>
                                           Cost is another key area in which SSDs and HDDs differ. Unfortunately, SSDs are typically much more expensive than HDDs in terms of "dollars per gigabytes of storage".
                                         </p>
@@ -151,11 +152,11 @@
                                           storage medium.
                                         </p>
                                     </div>
-                                    <div class="panel col-md-6">
-                                        <img src="./images/ssd-cost.PNG">
+                                    <div class="panel box">
+                                        <img class="pimages" src="./images/ssd-cost.PNG">
                                         <br>
                                         <br>
-                                        <img src="./images/hdd-cost.PNG">
+                                        <img class="pimages" src="./images/hdd-cost.PNG">
                                     </div>
                                 </div>
                             </div>
@@ -166,9 +167,9 @@
         </div>
       </div>
 
-      <div class="mainContent" align='center' id="Conclusion">
-          <div class="col-md-6">
-            <h1>Conclusion</h1>
+      <div class="clearFix mainContent" align='center' id="Conclusion">
+          <div class="sectionHeader">Conclusion</div>
+          <div class="box">
             <p>
                 With the decreasing prices of computer storage, SSDs are becoming much more common. However, that does not mean traditional hard disk drives have lost their place in the storage industry.
                 When making a decision on what computer to buy, there are primarily two factors that must be considered: the intended use, and the desired price.
@@ -179,10 +180,11 @@
               making them the desired storage medium for many users.
             </p>
           </div>
-          <div class="col-md-6">
-              <iframe width="800" height="450" src="https://www.youtube.com/embed/YQEjGKYXjw8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <div class="box">
+              <iframe width=100% height="450" src="https://www.youtube.com/embed/YQEjGKYXjw8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
       </div>
+      <div id="spacing"></div>
 </body>
 
 <footer>
