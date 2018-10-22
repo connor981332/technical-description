@@ -38,7 +38,7 @@
     color: white;
     font-family: Arial;
     text-align: center;
-    background-color: #802E12;
+    background-color: #599CB3;
 }
 
 
@@ -48,8 +48,8 @@ ul {
 
 .mainContent {
   text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20%;
+  margin-right: 20%;
   font-size: 20px;
   width: 1400px;
 }
@@ -78,6 +78,10 @@ h1, h2, h3, h4{
 
 #listTim{
     list-style-type: circle;
+}
+
+li {
+    font-weight: bolder;
 }
 
 .panel.panel-default {
