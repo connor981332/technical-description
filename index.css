@@ -48,10 +48,10 @@ ul {
 
 .mainContent {
   text-align: left;
-  margin-left: 20%;
-  margin-right: 20%;
   font-size: 20px;
-  width: 1400px;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .video {
@@ -72,11 +72,11 @@ p {
   float: left;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
     font-weight: bolder;
 }
 
-#listTim{
+#listTim {
     list-style-type: circle;
 }
 
@@ -84,9 +84,9 @@ li {
     font-weight: bolder;
 }
 
-.panel.panel-default {
-  left: 0;
-  right: 0;
+.container {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /*Panel tabs*/
@@ -128,8 +128,14 @@ li {
     }
 <<<<<<< HEAD
 =======
+/*<<<<<<< HEAD
+=======*/
+>>>>>>> 379d5744173c6879ff523bf0254346d74e5fc7a2
 
 #spacing {
-    margin-top: 140px;
+    margin-top: 250px;
 }
->>>>>>> ab2424f4d52a2955a85db03e3e8c4b2f2cf7360b
+<<<<<<< HEAD
+=======
+/*>>>>>>> ab2424f4d52a2955a85db03e3e8c4b2f2cf7360b*/
+>>>>>>> 379d5744173c6879ff523bf0254346d74e5fc7a2
