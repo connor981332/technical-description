@@ -27,11 +27,15 @@
     background-color: #4CAF50;
     color: white;
 }*/
+
+.body {
+    padding-bottom: 100px;
+}
+
 #bannerimage {
     width: 100%;
     height: 70px;
     background-color: #126480;
-    
 }
 
 .bannerhead {
@@ -40,7 +44,6 @@
     text-align: center;
     background-color: #599CB3;
 }
-
 
 ul {
   list-style-type: none;
@@ -80,6 +83,10 @@ h1, h2, h3, h4 {
     list-style-type: circle;
 }
 
+#Conclusion {
+    padding-bottom: 50px;
+}
+
 li {
     font-weight: bolder;
 }
@@ -115,27 +122,32 @@ li {
   background-color: #333;
 }
 
-    .panel-tabs > li.active > a,
-    .panel-tabs > li.active > a:hover,
-    .panel-tabs > li.active > a:focus {
-        cursor: default;
-        -webkit-border-radius: 2px;
-        -moz-border-radius: 2px;
-        border-radius: 2px;
-        background-color: #126480;
-        color: white;
-        border-bottom-color: transparent;
-    }
-<<<<<<< HEAD
-=======
-/*<<<<<<< HEAD
-=======*/
->>>>>>> 379d5744173c6879ff523bf0254346d74e5fc7a2
-
-#spacing {
-    margin-top: 250px;
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus {
+    cursor: default;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #126480;
+    color: white;
+    border-bottom-color: transparent;
 }
-<<<<<<< HEAD
-=======
-/*>>>>>>> ab2424f4d52a2955a85db03e3e8c4b2f2cf7360b*/
->>>>>>> 379d5744173c6879ff523bf0254346d74e5fc7a2
+
+.flex-container {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #126480;
+}
+
+.name {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
